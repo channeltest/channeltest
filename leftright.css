@@ -1,0 +1,30 @@
+body {
+    max-width: 8.5in;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+
+}
+
+h1{
+    font-size:2em;
+}
+
+
+.playerButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+
+  .buttonPlaying {
+      background-color:red;
+  }
