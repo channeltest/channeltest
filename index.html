@@ -21,10 +21,30 @@
     <body>
         <h1>Left Right Sound Test</h1>
         <p>A simple left & right channel speaker tester. Use this site to test that speakers or headphones are connected correctly and placed in the proper orientation.</p>
+        <hr>
+        <h2>Stereo Tests (headphones or 2 speakers)</h2>
         <div class="buttonContainer">
-        <button onclick="playClicked('Alternating')" class="playerButton" id="AlternatingButton">Alternating</button> 
-        <button onclick="playClicked('Simultaneous')" class="playerButton" id="SimultaneousButton">Simultaneous</button>
+        <button onclick="playClicked('Alternating', '2')" class="playerButton" id="AlternatingButton2">Alternating</button> 
+        <button onclick="playClicked('Simultaneous', '2')" class="playerButton" id="SimultaneousButton2">Simultaneous</button>
         </div>
+        <hr>
+        <h2>3 Channel Tests (Soundbar)</h2>
+        <div class="buttonContainer">
+        <button onclick="playClicked('Alternating', '3')" class="playerButton" id="AlternatingButton3">Alternating</button> 
+        <button onclick="playClicked('Simultaneous', '3')" class="playerButton" id="SimultaneousButton3">Simultaneous</button>
+        </div>
+        <hr>
+        <h2>5 Channel Tests (Home theater) </h2>
+        <div class="buttonContainer">
+        <button onclick="playClicked('Alternating', '5')" class="playerButton" id="AlternatingButton5">Alternating</button> 
+        <button onclick="playClicked('Simultaneous', '5')" class="playerButton" id="SimultaneousButton5">Simultaneous</button>
+        </div>
+        <!-- <hr>
+        <h2>7 Channel Tests (Home theater) </h2>
+        <div class="buttonContainer">
+        <button onclick="playClicked('Alternating', '7')" class="playerButton" id="AlternatingButton7">Alternating</button> 
+        <button onclick="playClicked('Simultaneous', '7')" class="playerButton" id="SimultaneousButton7">Simultaneous</button>
+        </div> -->
 
         <script src="leftright.js"></script>
     </body>
